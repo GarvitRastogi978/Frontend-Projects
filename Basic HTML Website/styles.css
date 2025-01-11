@@ -1,0 +1,170 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    flex-grow: 1;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .logo img {
+    border-radius: 8px;
+  }
+
+  .nav-links li {
+    margin-right: 10px;
+  }
+
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .nav-links li a:hover {
+    color: #ff9900;
+  }
+
+
+  @media screen and (max-width: 600px) {
+   .nav-links li {
+      flex-basis: 100%;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+   .logo img {
+      width: 100px;
+    }
+  }
+
+  @media screen and (max-width: 360px) {
+   .nav-links li {
+      flex-basis: 50%;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+   .nav-links li {
+      flex-basis: 100%;
+    }
+  }
+
+  @media screen and (max-width: 240px) {
+   .nav-links li {
+      flex-basis: 100%;
+    }
+  }
+
+  @media screen and (max-width: 200px) {
+   .nav-links li {
+      flex-basis: 100%;
+    }
+  }
+
+  @media screen and (max-width: 160px) {
+   .nav-links li {
+      flex-basis: 100%;
+    }
+  }
+
+
+  @media screen and (max-width: 120px) {
+   .nav-links li {
+      flex-basis: 100%;
+    }
+  }
+
+  @media screen and (max-width: 80px) {
+   .nav-links li {
+      flex-basis: 100%;
+    }
+  }
+
+  @media screen and (max-width: 60px) {
+   .nav-links li {
+      flex-basis: 100%;
+    }
+  }
+
+  @media screen and (max-width: 48px) {
+   .nav-links li {
+      flex-basis: 100%;
+    }
+  }
+
+  @media screen and (max-width: 36px) {
+   .nav-links li {
+      flex-basis: 100%;
+    }
+  }
+
+  @media screen and (max-width: 32px) {
+   .nav-links li {
+      flex-basis: 100%;
+    }
+  }
+
+  @media screen and (max-width: 24px) {
+   .nav-links li {
+      flex-basis: 100%;
+    }
+  }
+
+  @media screen and (max-width: 20px) {
+   .nav-links li {
+      flex-basis: 100%;
+    }
+  }
+
+  @media screen and (max-width: 16px) {
+   .nav-links li {
+      flex-basis: 100%;
+    }
+  }
+
+  @media screen and (max-width: 12px) {
+   .nav-links li {
+      flex-basis: 100%;
+    }
+  }
+
+  @media screen and (max-width: 8px) {
+   .nav-links li {
+      flex-basis: 100%;
+    }
+  }
+
+  @media screen and (max-width: 6px) {
+   .nav-links li {
+      flex-basis: 100%;
+    }
+  }
+
+  @media screen and (max-width: 4px) {
+   .nav-links li {
+      flex-basis: 100%;
+    }
+  }
+
+  @media screen and (max-width: 2px) {
+   .nav-links li {
+      flex-basis: 100%;
+    }
+  }
+
+.hamburger-menu {
+    display: none;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
